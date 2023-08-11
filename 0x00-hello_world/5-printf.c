@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
-* main . A program hat prints a line using the printf function
-* Author: Lorain Asongo
+* main - A program hat prints a line using the printf function
 * Return: 0 (Success)
 */
 int main(void)
