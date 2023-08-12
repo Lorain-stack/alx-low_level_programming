@@ -2,7 +2,8 @@
 
 /**
 * main - Entry Point
-*Description: A program that prints the alphabet in lowercase, followed by a new line
+*Description: A program that prints
+*alphabet in lowercase, followed by a new line
 * Return: Always 0 (Success)
 */
 
