@@ -2,22 +2,17 @@
 
 /**
 * main - Entry Point
-*Description: A program that prints the alphabet
-*in lowercase, followed by a new line
+*Description: A program that prints all single digit numbers
+*of base 10 starting from 0, followed by a new line
 * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char c;
+	int i;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
-	}
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
 
 	putchar('\n');
 	return (0);
