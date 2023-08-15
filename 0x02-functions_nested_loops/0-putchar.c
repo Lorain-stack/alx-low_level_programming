@@ -4,7 +4,7 @@
 *main - Entry point for programme
 *This function demonstrates the usage of the putchar function.
 *It prints characters to the standard output.
-*Return: On success 1
+*Return: 0 On success 
 */
 
 int main(void)
@@ -18,5 +18,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-return (1);
+return (0);
 }
