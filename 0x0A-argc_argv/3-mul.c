@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -47,7 +48,7 @@ int _atoi(char *s)
 }
 
 /**
- * main - prints all arguments
+ * main - prints final results
  * @argv: The array/vector of arguments
  * @argc: The nymber of arguments
  * Return: 0 on success, 1 on error
@@ -57,14 +58,14 @@ int main(int argc, char *argv[])
 {
 	int final, a1, a2;
 
-	if (argc < 3; || argc > 3)
+	if (argc < 3 || argc > 3)
 {
 		printf("Error\n");
 		return (1);
 }
 	a1 = _atoi(argv[1]);
 	a2 = _atoi(argv[2]);
-	final = a1 * a
+	final = a1 * a2;
 	printf("%d\n", final);
 	return (0);
 }
